@@ -1,0 +1,83 @@
+body {
+  padding: px;
+  font-family: arial;
+}
+#name1 {
+  color: grey;
+  border: 2px solid rgb(185, 185, 185);
+  background-color: none;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+#name2 {
+  color: grey;
+  border: 2px solid rgb(185, 185, 185);
+  background-color: none;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+#email {
+  color: grey;
+  border: 2px solid rgb(185, 185, 185);
+  background-color: none;
+  width: 252px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 0.2cm;
+}
+#signup {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+  background-color: rgb(40, 84, 244);
+  width: 259px;
+  height: 37px;
+  border-radius: 5px;
+  margin-top: 0.2cm;
+}
+#req {
+  font-size: 35px;
+}
+#enter1 {
+  color: rgb(60, 60, 60);
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+}
+#enter2 {
+  color: rgb(60, 60, 60);
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 0.2cm;
+}
+#uber {
+  background-color: black; 
+  border: none;
+  color: white; 
+  width: 120px; 
+  height: 40px; 
+  border-radius: 0;
+  font-weight: 400;
+}
+#uber:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+#sche {
+  background-color: rgb(232, 232, 232); 
+  color: white; color: rgb(0, 0, 0);
+  border: none;
+  width: 150px; 
+  height: 40px; 
+  border-radius: 0;
+  font-weight: 400;
+}
+#sche:hover {
+  background-color: rgb(185, 185, 185);
+}

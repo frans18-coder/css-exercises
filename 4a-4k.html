@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+  }
+  .button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #requestnow {
+    background-color: black; 
+    color: white; 
+    padding: 13px 30px  ;
+    border-radius: 0;
+    font-weight: 400;
+  }
+  #requestnow:hover {
+    background-color: rgba(0,0,0,0.6);
+  }
+  #addtocart {
+    background-color: rgba(255,216,20); 
+    padding: 13px 56px  ;
+    border-radius: 50px;
+  }
+  #addtocart:hover {
+    background-color: rgb(212, 181, 24);
+  }  
+  #signup {
+    background-color: rgb(46,154,79); 
+    color: white; 
+    padding: 10px 20px  ; 
+    border-radius: 5px;
+  }
+  #signup:hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  }  
+  #signup b {
+    font-weight: bold;
+  }
+  #getstarted {
+    background-color: rgb(121,82,179); 
+    color: white; 
+    padding: 13px 30px  ;
+    border-radius: 5px;
+  }
+  #getstarted:hover {
+    background-color: rgb(79, 48, 126);
+  }
+  #getstarted b {
+    font-weight: bold;
+  }
+  #getstarted1 {
+    border: 2px solid rgb(108,117,125); 
+    background-color: white; 
+    padding: 13px 30px  ;
+    border-radius: 5px;
+  }
+  #getstarted1:hover {
+    background-color: rgb(215, 215, 215);
+  }
+  #getstarted1 b {
+    font-weight: bold;
+  }
+  #save {
+    background-color: rgb(10,102,194); 
+    color: white; 
+    padding: 13px 30px  ;
+    border-radius: 50px; 
+    font-size: 18px;
+  }
+  #save:hover {
+    background-color: rgb(9, 77, 146);
+  }
+  #save1 {
+    color: rgb(10,102,194); 
+    border: 2px solid rgb(10,102,194); 
+    background-color: white; 
+    padding: 13px 30px  ;
+    border-radius: 50px; 
+    font-size: 18px;
+  }
+  #save1:hover {
+    background-color: rgb(150, 171, 192);
+  }
+  #tweet {
+    background-color: rgb(0, 143, 199); 
+    color: white; 
+    padding: 10px 20px  ;
+    border-radius: 50px; 
+    font-size: 18px;
+  }
+  #subscribe {
+    background-color: rgb(199, 0, 0); 
+    color: white; 
+    padding: 10px 20px  ;
+    border-radius: 3px; 
+    font-size: 15px;
+  }
+  #join {
+    background-color: white;
+    color:rgb(0, 150, 219);
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 150, 219);
+    border-radius: 3px;
+    font-size: 15px;
+  }
+  #page {
+    color: rgb(0, 89, 255);
+  }
+  #stretch {
+    border: none;
+    background-color: rgb(0, 133, 47);
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  #stretch:hover {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  #shadow {
+    border: none;
+    background-color: rgb(0, 133, 47);
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s;
+  }
+  #shadow:active {
+    transform: translate(2px, 2px);
+  }
+  #one {
+    border: none;
+    background-color: rgb(0, 133, 47);
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  #one:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #two {
+    border: none;
+    background-color: rgb(0, 133, 47);
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  #two:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #three {
+    border: none;
+    background-color: rgb(0, 133, 47);
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  #three:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+</style>
+<body>
+<p style="font-size:20px;"></p>
+  4a. <button id="requestnow" type="button" class="button">Request Now</button>
+  <br><br>
+  4b. <button id="addtocart" type="button" class="button">Add To Cart</button>
+  <br><br>
+  4c. <button id="signup" type="button" class="button"><b>Sign up</b></button>
+  <br><br>
+  4d. <button id="getstarted" type="button" class="button"><b>Get started</b></button>
+  &nbsp;<button id="getstarted1" type="button" class="button"><b>Download</b></button>
+  <br><br>
+  4e. <button id="save" type="button" class="button"><b>Apply on company website</b></button>
+  &nbsp;<button id="save1" type="button" class="button"><b>Save</b></button><br><br>
+  4f. <button id="tweet" type="button" class="button"><b>Tweet</b></button><br><br>
+  4g. <button id="subscribe" type="button" class="button">SUBSCRIBE</button>&nbsp;&nbsp;&nbsp;
+  <button id="join" type="button" class="button">JOIN</button>&nbsp;&nbsp;&nbsp;
+  <button id="tweet" type="button" class="button"><b>Tweet</b></button>
+  <br><br>
+  4h. <button id="back" type="button">Back</button><span id="page">&nbsp;&nbsp;<u>1</u>&nbsp;&nbsp;<u>2</u>&nbsp;&nbsp;<u>3</u>&nbsp;&nbsp;<u>4</u>&nbsp;&nbsp;<u>5</u>&nbsp;&nbsp;</span><button id="back" type="button">Next</button>
+</p>
+
+<p>
+  4i. <button id="stretch" type="button">Stretch</button><br><br>
+  4j. <button id="shadow" type="button">Shadow</button><br><br>
+  4k. <button id="one" type="button">One</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="two" type="button">Two</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="three" type="button">Three</button>
+</p>
+</body>
+</html>
