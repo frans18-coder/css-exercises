@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+td {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+/* 11a */
+.blueA {
+  background-color: lightblue;
+}
+.pinkA {
+  background-color: pink;
+}
+
+/* 11b */
+.blueB {
+  background-color: lightblue;
+}
+.pinkB {
+  background-color: pink;
+}
+/* 11c */
+.pink {
+  background-color: pink;
+}
+.table-11c {
+  border-spacing: 20px 10px; /* column-gap = 20px, row-gap = 10px */
+}
