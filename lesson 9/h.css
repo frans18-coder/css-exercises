@@ -1,0 +1,37 @@
+body {
+  padding: 120px;
+  font-family: arial;
+}
+#searchgoogle {
+  width:80%; 
+  height:38px; 
+  border-radius:50px; 
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 7px;
+}
+#kontener {
+  width: 800px;
+  padding: 10px;
+  border:none;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  text-align: center; 
+}
+#search-button {
+  background-color: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 125px;
+  height: 40px;
+  margin-top: 10px;
+  transition: all 0.1s;
+}
+#search-button:hover {
+  background-color: rgb(220, 220, 220);
+}
+#search-button:active {
+  transform: translate(0px, 2px);
+}
